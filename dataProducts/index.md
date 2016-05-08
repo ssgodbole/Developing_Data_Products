@@ -32,6 +32,14 @@ knit        : slidify::knit2slides
 1. The Shiny App shows the Year slider on the left panel. This slider can be played and paused.
 2. A geographical map below the Year slider animates as per the selected Year.
 3. The table on the right panel displays the details of all disasters for each Year and updates as well.
+4. For this Shiny App following libraries have been used -
+
+```r
+library(shiny)
+library(lubridate)
+suppressPackageStartupMessages(library(googleVis))
+library(plyr)
+```
 
 ---
 
